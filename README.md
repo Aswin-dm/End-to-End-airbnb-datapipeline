@@ -1,4 +1,4 @@
-# End-to-End Airbnb Data Pipeline (AWS, dbt & Snowflake)
+# airbnb-medallion-pipeline (AWS, dbt & Snowflake)
 
 [![dbt version](https://img.shields.io/badge/dbt-1.11.x-orange.svg?style=flat-square&logo=dbt)](https://github.com/dbt-labs/dbt-core)
 [![Snowflake](https://img.shields.io/badge/Snowflake-Data%20Warehouse-blue.svg?style=flat-square&logo=snowflake)](https://www.snowflake.com/)
@@ -130,7 +130,7 @@ Install the project dependencies using `uv` (recommended) or standard `pip`:
 ```bash
 # Clone the repository
 git clone <repository-url>
-cd AWS_DBT_Snowflake
+cd airbnb-medallion-pipeline
 
 # Install dependencies
 uv sync
